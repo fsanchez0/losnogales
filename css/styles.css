@@ -1,0 +1,13 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-auto-rows: 25px;
+    color: #fff;
+    z-index: 1;
+    box-shadow: 0 6pz 0 #83302e;
+}
+.box{
+    grid-row-end: 4;
+    background: #de2324;
+    border-top-left-radius: 1em;
+}
